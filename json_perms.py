@@ -22,6 +22,7 @@ SPREADSHEET_ID = "164HVPQaRCgK-Ht88hrAYtK3GPeLRm1whZBvH7Ujmt1g"
 def upload_spreadsheet(table: List[List]) -> None:
     """
     Updates a Google Spreadsheet with a given table of data
+    https://docs.google.com/spreadsheets/d/164HVPQaRCgK-Ht88hrAYtK3GPeLRm1whZBvH7Ujmt1g/edit?usp=sharing
     """
     credentials = service_account.Credentials.from_service_account_file(
         SERVICE_ACCOUNT_FILE, scopes=SCOPES)
